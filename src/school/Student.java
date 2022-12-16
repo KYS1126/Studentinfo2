@@ -6,7 +6,6 @@ public class Student {
 	private int studentId; //학번
 	private String studentName; //이름
 	private Subject majorSubject; //필수과목
-	//addSubjectScore() 메소드가 호출되면 이 리스트에 추가됨
 	private ArrayList<Score> scoreList = new ArrayList<Score>(); //학생이 수강한 과목에 점수 리스트
 	
 	public Student(int studentId, String studentName , Subject majorSubject) {

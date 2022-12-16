@@ -33,7 +33,6 @@ public class GenerateGradeReport {
 		}
 
 		return buffer.toString(); // buffer의 데이터를 String 타입으로 바꾼다.
-
 	}
 
 	// 헤더를 만들어준다.
